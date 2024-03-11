@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 * {
     margin: 0;
@@ -11,10 +11,8 @@ html {
     scroll-behavior: smooth;
 }
 
-@font-face {
-    font-family: 'lucida';
-    src: url(font/lucida-bright-regular.ttf);
-}
+
+
 
 body {
     width: 100%;
@@ -647,7 +645,11 @@ footer .isi .list ul li a {
     }
 
     main h1{
-        font-size: 29px;
+        font-size: 27px;
+    }
+
+    main p{
+        font-size: 10px;
     }
 
     .colsatu img {
@@ -706,11 +708,15 @@ footer .isi .list ul li a {
     }
 
     .kotak3 .judul h1 {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     .kotak3 .judul p {
-        font-size: 10px;
+        font-size: 8px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 15px;
     }
 
     .kotak3 .isi {
@@ -727,11 +733,13 @@ footer .isi .list ul li a {
     }
 
     .project p{
-        color: white
+        color: white;
+        font-size: 12px;
     }
 
     .project h1{
-        color: white
+        color: white;
+        font-size: 24px;
     }
 
     .hilang{
